@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoneySaver</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="About">Aplikacija "Money saver" Vam nudi mogućnosti da vršite evidenciju Vaših mjesečnih troškova, te da kontrolišete vlastitu potrošnju tokom određenih perioda godine.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

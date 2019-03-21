@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainForm"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/porukaDobrodosliceTxt"
+        android:text="Dobrodošli, User"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@id/odjavaBtn"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Odjava"
+        android:id="@+id/odjavaBtn"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/odjavaBtn"
+        android:id="@+id/naslovTxt"
+        android:text="MONEY SAVER"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodajAktivnostBtn"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/naslovTxt"
+        android:text="Dodaj aktivnost" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dodajTrosakBtn"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/dodajAktivnostBtn"
+        android:text="Dodaj trošak" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pregledAktivnostiBtn"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/dodajTrosakBtn"
+        android:text="Pregled aktivnosti" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pregledTroskovaBtn"
+        android:layout_below="@id/pregledAktivnostiBtn"
+        android:text="Pregled troškova" />
+
+</RelativeLayout>

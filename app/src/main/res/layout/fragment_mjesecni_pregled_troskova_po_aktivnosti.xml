@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainForm"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/naslovTxt"
+            android:text="MONEY SAVER"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/naslovTxt"
+            android:id="@+id/naslovPregledaTroskaTxt"
+            android:text="DETALJNI MJESEČNI PREGLED TROŠKOVA"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/naslovPregledaTroskaTxt"
+            android:id="@+id/naslovPregledaTroskaMjesecTxt"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_marginBottom="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/naslovPregledaTroskaMjesecTxt"
+            android:id="@+id/naslovAktivnostiTxt"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/troskoviListaDetaljno"
+            android:layout_below="@id/naslovAktivnostiTxt"></ListView>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ukupnoTroskoviUnos"
+            android:layout_below="@id/troskoviListaDetaljno"
+            android:textSize="24dp"
+            android:textColor="#000"
+            />
+
+
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:src="@drawable/ic_drawable_24dp"
+        />
+</android.support.design.widget.CoordinatorLayout>

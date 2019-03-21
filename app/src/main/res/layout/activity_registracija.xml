@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registracija"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_investment"
+        android:id="@+id/slika"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRACIJA"
+        android:id="@+id/registracijaTxt"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:layout_below="@id/slika"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameUnos"
+        android:layout_below="@id/registracijaTxt"
+        android:hint="Username"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordUnos"
+        android:layout_below="@id/usernameUnos"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordConfirm"
+        android:layout_below="@id/passwordUnos"
+        android:hint="Password potvrda"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registracijaBtn"
+        android:text="REGISTRACIJA"
+        android:layout_below="@id/passwordConfirm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Već imaš račun? Klikni ovdje da se prijaviš!"
+        android:layout_below="@id/registracijaBtn"
+        android:gravity="center"
+        android:id="@+id/loginTxt"/>
+
+
+</RelativeLayout>

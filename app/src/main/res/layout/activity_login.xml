@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_investment"
+        android:id="@+id/slika"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/prijavaTxt"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="#000"
+        android:textSize="24dp"
+        android:layout_below="@id/slika"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameUnos"
+        android:layout_below="@id/prijavaTxt"
+        android:hint="Username"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordUnos"
+        android:layout_below="@id/usernameUnos"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prijavaBtn"
+        android:text="PRIJAVA"
+        android:layout_below="@id/passwordUnos" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registracijaBtn"
+        android:text="REGISTRACIJA"
+        android:layout_below="@id/prijavaBtn" />
+
+</RelativeLayout>
