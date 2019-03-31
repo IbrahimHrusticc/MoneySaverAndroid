@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/odustaniBtn"
         android:layout_below="@id/nazivAktivnostiUnos"
+        android:layout_marginRight="32dp"
         android:text="ODUSTANI"
         android:layout_alignParentRight="true"/>
 
